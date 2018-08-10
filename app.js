@@ -110,4 +110,4 @@ var labels = new_chartGroup.selectAll("text")
   .attr("fill", "white")
   .text(d=>d.abbr);
 });
-})();
+});
