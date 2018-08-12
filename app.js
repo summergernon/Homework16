@@ -28,7 +28,7 @@ var new_chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Retrieve data
-d3.csv("data/data.csv", function(error, healthData){
+d3.csv("data.csv", function(error, healthData){
   if (error) throw error;
 
   console.log("healthData", healthData);
